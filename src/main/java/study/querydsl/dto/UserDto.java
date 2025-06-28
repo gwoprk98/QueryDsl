@@ -1,4 +1,12 @@
 package study.querydsl.dto;
 
-public class userDto {
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class UserDto {
+
+    private String name;
+    private int age;
 }
